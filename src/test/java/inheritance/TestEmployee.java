@@ -12,6 +12,7 @@ public class TestEmployee {
 	
 	
 	@Test
+	@rollback
 	public void testToCalculateGrossSalary() {
 		
 		assertEquals(32000.0,e.calculateGrossSal(),0.01);
